@@ -1,0 +1,21 @@
+Problem-Statement:-
+
+Given an array having both positive and negative integers. 
+The task is to compute the length of the largest subarray with sum 0.
+
+Constraints:-
+
+1 <= N <= 10^5
+-1000 <= A[i] <= 1000, for each valid i
+
+Sample-1:
+
+Input:- N = 8, A = {15, -2, 2,-8, 1,7,10,23}
+Ouptut:- 5
+
+Sample-2:
+
+Input:- N = 6, A = {3,-4,5,0,4,5}
+Ouptut:- 1
+
+

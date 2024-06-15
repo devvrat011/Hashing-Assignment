@@ -1,0 +1,23 @@
+Problem-Statement:- 
+
+You are given an integer array vec that is sorted in non-decreasing order.
+Determine if it is possible to split vec into one or more subsequences such that both of the following conditions are true:
+Each subsequence is a consecutive increasing sequence (i.e.each integer is exactly one more than the previous integer).
+All subsequences have a length of 3 or more.
+Return true if you can split vec according to the above conditions, or false otherwise.
+
+Constraints:-
+
+1 <= v.length <= 104
+-1000 <= v[i] <= 1000
+
+
+Sample-1:-
+
+Input:- v = {1,2,3,3,4,5}
+Ouput:- true
+
+Sample-2 :-
+
+Input:- v = {1,2,3,4,4,5}
+Ouput:- false
